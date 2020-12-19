@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-image: url('./images/background_image.png');
+	margin-bottom: 94px;
+}
+
+.Landing {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	color: white;
+}
+
+.Landing__header {
+	background-color: #012461;
+	margin-bottom: 94px;
+	height: 600px;
+	background-image: url('./images/background_image.png');
+	background-repeat: no-repeat;
+}
+
+.Header__section {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 42px;
+}
+
+.Header__menu {
+	padding: 24px 0;
+}
+
+.Menu__logotype {
+	display: inline-block;
+}
+
+.Menu__list {
+	margin-top: 32px;
+	display: inline-block;
+	float: right;
+}
+
+
+.Menu__link {
+	font-weight: 900;
+	font-size: 24px;
+	margin-left: 24px;
+	color: white;
+	cursor: pointer;
+	opacity: .75;
+	transition: opacity ease .25s;
+}
+
+.Menu__link:hover {
+	opacity: 1;
+}
+
+
+.Header__content {}
+.Content__info {
+	vertical-align: top;
+	display: inline-block;
+}
+.Content__text {
+	font-size: 60px;
+	font-weight: 900;
+}
+.Content__button {
+	background-color: #F94F98;
+  height: 80px;
+  width: 160px;
+  top: 0px;
+  right: 0px;
+	border-radius: 15px;
+	cursor: pointer;
+	text-align: center;
+}
+.Content__button:hover{
+	opacity: .75;
+}
+.Button {
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	margin-top: -10px;
+	display: inline-block;
+	font-size: 60px;
+	font-weight: 900;
+}
+.Content__image {
+	 margin: -300px -200px -300px 1000px;
+	float: right;
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+.Landing__content {
+	width: 100%;
+}
+
+.Content__section {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 42px;
+	margin-bottom: 96px;
+}
+
+.Section__title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 34px;
+	font-weight: 900;
+	margin-bottom: 24px;
+}
+
+.Section__text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.Section__lists {}
+
+.Section__table{
+
+}
+.Table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.Tr{
+	width: 100%;
+}
+
+.Th{
+	color: blue;
+	padding: 16px 24px;
+	font-size: 24px;
+	text-align: left;
+	border: 4px solid #f1f1f1;
+	width: 50%;
+}
+
+.Td{
+	color: blue;
+	padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+}
+
+.Section__form{
+
+}
+
+.Form__item{
+	display: inline-block;
+	margin-right: 24px;
+
+}
+.Form__item_end{
+	margin-right: 0px;
+
+}
+.Form__select{
+	padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+	outline: none;
+	width: 387px;
+}
+.Form__label{
+	display: block;
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 8px;
+
+}
+
+.Form__input{
+	color: white;
+	padding: 16px 24px;
+	border:4px solid #002460;
+	outline: none;
+	width: 330px;
+
+}
+.Form__button{
+	background-color: #002460;
+	outline: none;
+	color: white;
+	padding: 16px 24px;
+	border: 4px solid #002460;
+	font-weight: 900;
+}
+
+.List__block {
+	display: inline-block;
+	margin-right: 38px;
+	font-family: 'Anton', sans-serif;
+}
+
+.List__block_end {
+	margin-right: 0;
+}
+
+.List__image {
+	margin-bottom: 16px;
+}
+
+.List__image .Image {
+	border-radius: 12px;
+}
+
+.List__title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 8px;
+	padding: 0 16px;
+}
+
+.List__info {
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0 16px;
+}
+
+.Landing__footer {
+}
