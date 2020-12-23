@@ -22,6 +22,7 @@ html, body {
 	height: 600px;
 	background-image: url('./images/background_image.png');
 	background-repeat: no-repeat;
+	transition: 2s;
 }
 
 .Header__section {
@@ -209,8 +210,12 @@ html, body {
 	margin-bottom: 16px;
 }
 
-.List__image .Image {
+.List__image  {
 	border-radius: 12px;
+}
+.List__image:hover  {
+	transform:rotate(-20deg);
+	transition-duration: .2s;
 }
 
 .List__title {
@@ -224,6 +229,44 @@ html, body {
 	font-size: 16px;
 	font-weight: 400;
 	padding: 0 16px;
+}
+.Image:hover {
+    top: inherit;
+    left: -20%;
+	  transform: scale(1.2);
+	  cursor: pointer;
+		transition-duration: .4s;}
+.Number{
+	margin-top: 100px;
+	margin-left: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	margin-bottom: 24px;
+}
+
+.Map__section{
+
+}
+.Map__title{
+	margin-top: 100px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 34px;
+	font-weight: 900;
+	margin-bottom: 24px;
+}
+.Map__text{
+	font-size: 28px;
+	font-weight: 800;
+
+}
+.Map__image{
+	margin-left: 400px;
+	margin-top: -400px;
+	background-color: #002460;
+	outline: none;
+	color: white;
+	display: inline-block;
 }
 
 .Landing__footer {
