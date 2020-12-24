@@ -105,12 +105,27 @@ li a {
   width: 160px;
   top: 0px;
   right: 0px;
-	border-radius: 15px;
+	border-radius: 0px;
 	cursor: pointer;
 	text-align: center;
 }
-.Content__button:hover{
-	opacity: .75;
+.Content__button::after{
+	color: #F74D98;
+	margin-top: -78px;
+	content: '';
+	display: block;
+	width:-2;
+	height: 0px;
+	background: #fff;
+	transition: height .3s;
+}
+.Content__button:hover::after{
+	color: black;
+	margin-top: -78px;
+	float:none;
+	height: 100%;
+	z-index: -1;
+
 }
 .Button {
 	font-family: 'Permanent Marker', cursive;
@@ -119,6 +134,9 @@ li a {
 	display: inline-block;
 	font-size: 60px;
 	font-weight: 900;
+}
+.Button:hover{
+	color: #F74D98;
 }
 .Content__image {
 	 margin: -300px -200px -300px 1000px;
@@ -163,6 +181,9 @@ li a {
 }
 
 .Tr{
+	background-color: #111111;
+	opacity: .75;
+	filter: blur(2px;);
 	width: 100%;
 }
 
