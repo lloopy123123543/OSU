@@ -176,30 +176,36 @@ li a {
 
 }
 .Table{
-	width: 100%;
+	font-size: 14px;
 	border-collapse: collapse;
+	text-align: center;
+	width: 1000px;
+	opacity: .85;
 }
 
 .Tr{
 	background-color: #111111;
-	opacity: .75;
-	filter: blur(2px;);
-	width: 100%;
 }
-
-.Th{
-	color: blue;
-	padding: 16px 24px;
-	font-size: 24px;
+.Th, .Td:first-child {
+	background: #570051;
+	color: white;
+	padding: 15px 25px;
+	height: 40px;
+	width: 100px;
+}
+.Th, .Td {
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: white;
+	width: 100px;
+}
+.Td {
+	background: #570051;
+	width: 100px;
+}
+.Th:first-child, .Td:first-child {
 	text-align: left;
-	border: 4px solid #f1f1f1;
-	width: 50%;
-}
-
-.Td{
-	color: blue;
-	padding: 16px 24px;
-	border: 4px solid #f1f1f1;
+	width: 100px;
 }
 
 .Section__form{
@@ -244,6 +250,9 @@ li a {
 	padding: 16px 24px;
 	border: 4px solid #002460;
 	font-weight: 900;
+}
+.Form__button:hover{
+	padding: 18px 28px;
 }
 
 .List__block {
